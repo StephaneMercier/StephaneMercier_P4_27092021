@@ -53,11 +53,19 @@
                 class="navbar-brand"
                 aria-label="Logo et nom de l'agence"
                 href="index.html"
-                ><img
-                  src="./img/la-chouette-agence.png"
-                  alt="paris web design logo agence web meilleure agence"
-                  height="40"
-              /></a>
+                ><picture>
+                  <source
+                    type="image/webp"
+                    srcset="./img/la-chouette-agence.webp" />
+                  <source
+                    type="image/png"
+                    srcset="./img/la-chouette-agence.png" />
+                  <img
+                    src="./img/la-chouette-agence.png"
+                    alt="paris web design logo agence web meilleure agence"
+                    height="40"
+                /></picture>
+              </a>
 
               <button
                 id="nav-toggle"
@@ -79,7 +87,7 @@
                 <li></li>
                 <li>
                   <a aria-label="Bouton Contactez-nous" href="contact.html"
-                    >Contactez-nous &gt;</a
+                    >Contactez-nous</a
                   >
                 </li>
               </ul>
@@ -106,12 +114,15 @@
         <div class="container bloc-lg">
           <div class="row tight-width-whitespace">
             <div class="col-sm-12">
-              <img
-                src="./img/logo.png"
-                class="center-block image-resize-mode"
-                width="100"
-                alt="La chouette agence, agence web paris, création logo paris"
-              />
+              <picture>
+                <source type="image/webp" srcset="./img/logo.webp" />
+                <source type="image/png" srcset="./img/logo.png" />
+                <img
+                  src="./img/logo.png"
+                  class="center-block image-resize-mode"
+                  width="100"
+                  alt="La chouette agence, agence web paris, création logo paris"
+              /></picture>
               <h1 class="text-center hero-bloc-text tc-white">
                 La Chouette Agence.
               </h1>
@@ -139,10 +150,13 @@
         <div class="container bloc-md">
           <div class="row">
             <div class="col-sm-12 text-center">
-              <img
-                alt="agence web, agence web paris, web design paris, stratégie web"
-                src="./img/title.png"
-              />
+              <picture>
+                <source type="image/webp" srcset="./img/title.webp" />
+                <source type="image/png" srcset="./img/title.png" />
+                <img
+                  src="./img/title.png"
+                  alt="agence web, agence web paris, web design paris, stratégie web"
+              /></picture>
             </div>
           </div>
           <div class="row voffset-lg med-width-whitespace">
@@ -206,10 +220,13 @@
           </div>
           <div class="row voffset-lg voffset">
             <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-              <img
-                alt="citation client agence design web, client satisfait du travail de l'agence web"
-                src="./img/citation.png"
-              />
+              <picture>
+                <source type="image/webp" srcset="./img/citation.webp" />
+                <source type="image/png" srcset="./img/citation.png" />
+                <img
+                  src="./img/citation.png"
+                  alt="citation client agence design web, client satisfait du travail de l'agence web"
+              /></picture>
             </div>
           </div>
         </div>
@@ -267,25 +284,32 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-12 text-center">
-              <img
-                alt="agence web, agence web paris, web design paris, stratégie web"
-                src="./img/title2.png"
-              />
+              <picture>
+                <source type="image/webp" srcset="./img/title2.webp" />
+                <source type="image/png" srcset="./img/title2.png" />
+                <img
+                  alt="agence web, agence web paris, web design paris, stratégie web"
+                  src="./img/title2.png"
+              /></picture>
             </div>
           </div>
           <div class="row tight-width-whitespace portfolio-row">
             <div class="col-sm-6">
               <a
                 href="#"
-                data-lightbox="img/1.jpg"
+                data-lightbox="img/1-min.jpg"
                 data-gallery-id="gallery-1"
                 data-caption="Refonte d'un site web pour un journal local"
                 data-frame="snapshot-lb"
-                ><img
-                  src="./img/1.jpg"
-                  alt="paris web design logo agence web meilleure agence et refonte site web journal"
-                  class="img-responsive portfolio-thumb"
-              /></a>
+              >
+                <picture>
+                  <source type="image/webp" srcset="./img/1.webp" />
+                  <source type="image/jpeg" srcset="./img/1.jpg" />
+                  <img
+                    src="./img/1.jpg"
+                    alt="paris web design logo agence web meilleure agence et refonte site web journal"
+                    class="img-responsive portfolio-thumb" /></picture
+              ></a>
               <h3 class="mg-md text-center">
                 Refonte d'un site web pour un journal local
               </h3>
@@ -301,11 +325,15 @@
                 data-gallery-id="gallery-1"
                 data-caption="Création d'un site web pour photographes"
                 data-frame="snapshot-lb"
-                ><img
-                  src="./img/2.jpg"
-                  class="img-responsive portfolio-thumb"
-                  alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes"
-              /></a>
+              >
+                <picture>
+                  <source type="image/webp" srcset="./img/2.webp" />
+                  <source type="image/jpeg" srcset="./img/2.jpg" />
+                  <img
+                    src="./img/2-min.jpg"
+                    class="img-responsive portfolio-thumb"
+                    alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" /></picture
+              ></a>
               <h3 class="mg-md text-center">
                 Création d'un site web pour photographes
               </h3>
@@ -319,15 +347,19 @@
             <div class="col-sm-6">
               <a
                 href="#"
-                data-lightbox="img/3.bmp"
+                data-lightbox="img/3.jpg"
                 data-gallery-id="gallery-1"
                 data-caption="Création d'un site internet pour un voyageur"
                 data-frame="snapshot-lb"
-                ><img
-                  src="./img/3.bmp"
-                  class="img-responsive portfolio-thumb"
-                  alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"
-              /></a>
+              >
+                <picture>
+                  <source type="image/webp" srcset="./img/3.webp" />
+                  <source type="image/jpeg" srcset="./img/3.jpg" />
+                  <img
+                    src="./img/3.jpg"
+                    class="img-responsive portfolio-thumb"
+                    alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur" /></picture
+              ></a>
               <h3 class="mg-md text-center">
                 Création d'un site internet pour un voyageur
               </h3>
@@ -339,15 +371,19 @@
             <div class="col-sm-6">
               <a
                 href="#"
-                data-lightbox="img/4.bmp"
+                data-lightbox="img/4.jpg"
                 data-gallery-id="gallery-1"
                 data-caption="Conception d'un site pour une agence de mariage"
                 data-frame="snapshot-lb"
-                ><img
-                  src="./img/4.bmp"
-                  class="img-responsive portfolio-thumb"
-                  alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage"
-              /></a>
+              >
+                <picture>
+                  <source type="image/webp" srcset="./img/4.webp" />
+                  <source type="image/jpeg" srcset="./img/4.jpg" />
+                  <img
+                    src="./img/4.jpg"
+                    class="img-responsive portfolio-thumb"
+                    alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage" /></picture
+              ></a>
               <h3 class="mg-md text-center">
                 Conception d'un site pour une agence de mariage
               </h3>
@@ -363,7 +399,7 @@
       <!-- bloc-4-portfolio END -->
 
       <!-- bloc-5-cta -->
-      <div
+      <section
         class="
           bloc
           bgc-dark-slate-blue
@@ -393,7 +429,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- bloc-5-cta END -->
 
       <!-- Footer - bloc-8 -->
