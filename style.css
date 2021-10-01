@@ -575,6 +575,10 @@ a[data-lightbox]:hover img {
   animation-fill-mode: none;
 }
 
+ul {
+  font-size: 1.3em;
+}
+
 #lightbox-modal {
   display: flex;
   align-items: center;
