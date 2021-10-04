@@ -1,3 +1,14 @@
+/* Breakpoinbts reminder */
+/* 320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens */
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -24,6 +35,10 @@ a,
 button {
   transition: all 0.3s ease-in-out;
   outline: none !important;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:hover {
@@ -678,11 +693,14 @@ a {
 }
 
 .hero-bloc-text {
-  font-size: 38px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
 }
 
 .hero-bloc-text-sub {
   font-size: 36px;
+  color: #1c1c;
 }
 
 .statement-bloc-text {
@@ -720,19 +738,33 @@ p {
 
 .social {
   max-width: 400px;
-  margin: auto auto auto auto;
+  margin: 20px auto;
 }
 
-h2 {
-  font-size: 22px;
-  line-height: 1.4em;
+@media only screen and (min-width: 320px) and (max-width: 420px) {
+  .social {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+  .social {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 1.5rem;
+  font-style: italic;
   text-transform: uppercase;
   font-weight: 700;
   color: #333333 !important;
+}
+
+.footer__list {
+  color: #ffffff;
 }
 
 .med-width-whitespace {
@@ -1074,4 +1106,48 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+}
+
+.intro__agence {
+  width: 100%;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.citation__customer {
+  width: 100%;
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+}
+
+.customer__name {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.our__achievements {
+  width: 55%;
+  font-size: 2rem;
+  margin: auto;
+  font-weight: 600;
+}
+
+.info_line {
+  font-size: 2rem;
+}
+
+h1.tc-black {
+  font-size: 3rem;
+}
+
+.tc-black {
+  font-size: 2rem;
+}
+
+.label_name {
+  font-weight: 700;
 }

@@ -3235,6 +3235,7 @@ input[type="search"] {
 
 .form-group {
   margin-bottom: 15px;
+  font-weight: 500;
 }
 
 .checkbox,
