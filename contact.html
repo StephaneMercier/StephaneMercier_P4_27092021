@@ -61,6 +61,7 @@
                 <li>
                   <a href="index.html">Accueil</a>
                 </li>
+
                 <!-- Retrait de l'onglet "Contactez-nous" pour éviter la redondance -->
                 <!-- <li>
                   <a href="contact.html">Contactez-nous</a>
@@ -110,11 +111,11 @@
                 <form
                   id="form_1"
                   novalidate
-                  success-msg="Your message has been sent."
-                  fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
+                  data-success-msg="Your message has been sent."
+                  data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
                 >
                   <div class="form-group">
-                    <label for="name"> <p class="label_name">Nom:</p></label>
+                    <label for="name" class="label_name">Nom:</label>
                     <input
                       id="name"
                       placeholder="Nom ou Société"
@@ -123,8 +124,8 @@
                     />
                   </div>
                   <div class="form-group">
-                    <label for="email">
-                      <p class="label_name">Adresse e-mail:</p>
+                    <label for="email" class="label_name"
+                      >Adresse e-mail:
                     </label>
                     <input
                       id="email"
@@ -135,24 +136,21 @@
                     />
                   </div>
                   <div class="form-group">
-                    <label for="question">
-                      <p class="label_name">Comment nous avez-vous connu ?</p>
+                    <label for="question" class="label_name"
+                      >Comment nous avez-vous connu ?
                     </label>
                     <input
                       id="question"
                       class="form-control"
                       placeholder="Annonce internet, par un(e) ami(e), autres..."
-                      type="question"
+                      type="text"
                       required
-                      id="input_504"
                     />
                   </div>
                   <div class="form-group">
-                    <label for="project-description">
-                      <p class="label_name">
-                        Brief de votre projet (Ajoutez autant de détails que
-                        nécessaire):
-                      </p> </label
+                    <label for="project-description" class="label_name">
+                      Brief de votre projet (Ajoutez autant de détails que
+                      nécessaire): </label
                     ><textarea
                       id="project-description"
                       class="form-control"

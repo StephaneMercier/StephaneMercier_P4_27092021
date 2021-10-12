@@ -1151,3 +1151,7 @@ h1.tc-black {
 .label_name {
   font-weight: 700;
 }
+
+.contact_form {
+  margin: 40px;
+}
